@@ -30,61 +30,58 @@
     <ClCompile Include="DebugFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui_tables.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_demo.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui_widgets.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_draw.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_glfw.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui_demo.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_opengl3.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui_draw.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_tables.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_glfw.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_widgets.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_opengl2.cpp">
-      <Filter>Source Files\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_opengl3.cpp">
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\OpenGL Libraries\imgui-master\backends\imgui_impl_opengl3.h">
-      <Filter>Header Files\imgui</Filter>
-    </ClInclude>
     <ClInclude Include="DebugFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imgui.h">
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_glfw.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imgui_internal.h">
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_opengl3.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imstb_rectpack.h">
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_internal.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imstb_textedit.h">
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_rectpack.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imstb_truetype.h">
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_textedit.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imconfig.h">
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_truetype.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_glfw.h">
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imconfig.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_dx12.h">
-      <Filter>Source Files\imgui</Filter>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imgui</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
