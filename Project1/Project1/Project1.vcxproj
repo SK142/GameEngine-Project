@@ -19,28 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_glfw.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_opengl2.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_opengl3.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui_demo.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui_draw.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui_tables.cpp" />
-    <ClCompile Include="..\..\..\..\..\Downloads\imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_demo.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_draw.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_tables.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_widgets.cpp" />
     <ClCompile Include="..\glad.c" />
     <ClCompile Include="DebugFile.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_dx12.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\backends\imgui_impl_glfw.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imconfig.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imgui.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imgui_internal.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imstb_rectpack.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imstb_textedit.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\imgui-docking\imstb_truetype.h" />
-    <ClInclude Include="..\..\..\..\..\Downloads\OpenGL Libraries\imgui-master\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imconfig.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_glfw.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_internal.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_rectpack.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_textedit.h" />
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_truetype.h" />
     <ClInclude Include="DebugFile.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -145,7 +144,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sheha\source\C++\SDL\Project1\Project1\imgui-docking;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sheha\Downloads\OpenGL Libraries\IMGUI-DOCKING;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -161,7 +160,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\sheha\source\C++\SDL\Project1\Project1\imgui-docking;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sheha\Downloads\OpenGL Libraries\IMGUI-DOCKING;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
