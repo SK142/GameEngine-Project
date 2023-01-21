@@ -35,6 +35,22 @@ const char *vertexShaderSource = "#version 420 core\n"
 "}\0"
 ;
 
+int TestWindow(bool NewWindow, GLFWwindow* window)
+{
+   // ImGui_ImplOpenGL3_NewFrame();
+   // ImGui_ImplGlfw_NewFrame();
+    ImGui::Render();
+    ImGui::NewFrame();
+
+    ImGui::Begin("new window");
+    ImGui::Text("dfg");
+    ImGui::End();
+
+
+    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
+    return 0;
+} 
 
 int main()
 {
@@ -67,6 +83,7 @@ int main()
     ImGui::StyleColorsDark();
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init("#version 420");
+
 
     // glad: load all OpenGL function pointers
     // ---------------------------------------
@@ -213,6 +230,14 @@ int main()
         ImGui::Text("hello there");
         ImGui::Checkbox("Draw Triangle", &DrawTriangle);
         ImGui::Checkbox("Wireframe Mode", &WireFrame);
+        bool NewWindow;
+        NewWindow = false;
+        if (ImGui::Button("Click Me"))
+        {
+            NewWindow = true;
+            TestWindow(NewWindow, window);
+            cout << "I'm alive" << endl;
+        }
         ImGui::End();
 
         bool Show = true;
