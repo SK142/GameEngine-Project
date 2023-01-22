@@ -9,6 +9,7 @@
 #include <string>
 #include <fstream>
 #include "DebugFile.h"
+#include "DebugWindows.h"
 
 using namespace std;
 
@@ -18,6 +19,9 @@ void processInput(GLFWwindow* window);
 // settings
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
+bool NewWindow = false;
+float FontSize = 13.5;
+
 
 const char *fragmentShaderSource = "#version 420 core\n"
 "out vec4 FragColor;\n"
@@ -35,22 +39,7 @@ const char *vertexShaderSource = "#version 420 core\n"
 "}\0"
 ;
 
-int TestWindow(bool NewWindow, GLFWwindow* window)
-{
-   // ImGui_ImplOpenGL3_NewFrame();
-   // ImGui_ImplGlfw_NewFrame();
-    ImGui::Render();
-    ImGui::NewFrame();
 
-    ImGui::Begin("new window");
-    ImGui::Text("dfg");
-    ImGui::End();
-
-
-    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
-
-    return 0;
-} 
 
 int main()
 {
@@ -83,6 +72,11 @@ int main()
     ImGui::StyleColorsDark();
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init("#version 420");
+ // ImGui Custom Font
+    //========================================================
+    io.Fonts->AddFontDefault();
+    ImFont* mainFont = io.Fonts->AddFontFromFileTTF("C:/Users/sheha/Downloads/OpenGL Libraries/Font/Gepestev-nRJgO.ttf", FontSize);
+    IM_ASSERT(mainFont != NULL);
 
 
     // glad: load all OpenGL function pointers
@@ -219,26 +213,30 @@ int main()
             glDrawArrays(GL_TRIANGLES, 0, 3);
         }
 
-       // glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+        // glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
-     
+
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
-
+        ImGui::PushFont(mainFont);
         ImGui::Begin("hi");
         ImGui::Text("hello there");
         ImGui::Checkbox("Draw Triangle", &DrawTriangle);
         ImGui::Checkbox("Wireframe Mode", &WireFrame);
-        bool NewWindow;
-        NewWindow = false;
+        ImGui::Checkbox("Make Window", &NewWindow);
+        ImGui::SliderFloat("Font Size", &FontSize ,1, 100);
         if (ImGui::Button("Click Me"))
         {
             NewWindow = true;
-            TestWindow(NewWindow, window);
-            cout << "I'm alive" << endl;
         }
         ImGui::End();
+        if (NewWindow)
+        {
+            CreateComponentWindow();
+        }ImGui::PopFont();
+
+   
 
         bool Show = true;
         ImGui::ShowDemoWindow(&Show);
