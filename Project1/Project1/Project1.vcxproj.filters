@@ -51,6 +51,12 @@
     <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
+    <ClCompile Include="ComponentWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DebugFile.h">
@@ -82,6 +88,12 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_impl_opengl3_loader.h">
       <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
