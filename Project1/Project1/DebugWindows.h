@@ -3,5 +3,5 @@
 
 using namespace std;
 
-int CreateComponentWindow();
+int CreateComponentWindow(bool ToolTips);
 

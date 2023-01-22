@@ -29,6 +29,7 @@
     <ClCompile Include="..\glad.c" />
     <ClCompile Include="ComponentWindow.cpp" />
     <ClCompile Include="DebugFile.cpp" />
+    <ClCompile Include="GUI.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +44,7 @@
     <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_truetype.h" />
     <ClInclude Include="DebugFile.h" />
     <ClInclude Include="DebugWindows.h" />
+    <ClInclude Include="GUI.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

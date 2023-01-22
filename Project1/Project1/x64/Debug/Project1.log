@@ -1,1 +1,5 @@
-﻿  Project1.vcxproj -> C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\x64\Debug\Project1.exe
+﻿  ComponentWindow.cpp
+C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\Project1\ComponentWindow.cpp(60,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GUI.cpp
+  Generating Code...
+  Project1.vcxproj -> C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\x64\Debug\Project1.exe
