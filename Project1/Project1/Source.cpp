@@ -10,6 +10,7 @@
 #include <fstream>
 #include "DebugFile.h"
 #include "DebugWindows.h"
+#include "DebugCommands.h"
 
 using namespace std;
 

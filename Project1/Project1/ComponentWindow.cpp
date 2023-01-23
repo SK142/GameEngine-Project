@@ -6,6 +6,7 @@
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
 #include "GUI.h"
+#include "DebugCommands.h"
 
 using namespace std;
 
@@ -18,6 +19,7 @@ bool enabled = true;
 int Size = 10;
 string LineOfText = "";
 string Lines[10];
+
 
 
 /*void File()
@@ -37,6 +39,7 @@ string Lines[10];
 int CreateComponentWindow(bool ToolTips)
 {
 
+	
 	ImGui::Begin("Component Window");
 	if (ToolTips && ImGui::IsItemHovered(ImGuiHoveredFlags_AllowWhenDisabled))
 	{
@@ -58,7 +61,14 @@ int CreateComponentWindow(bool ToolTips)
 
 	GUISliderInt(" NEW TEST", ZValue, 1, 100, ToolTips, "it works");
 	GUISliderFloat("another test", ZValue, 1.0f, 100.0f, ToolTips, "ot workfg");
-
+	ImGui::BeginMainMenuBar();
+	ImGui::Button("fds");
+	ImGui::Button("fgds");
+	ImGui::Button("wwfds");
+	ImGui::EndMainMenuBar();
+	
+	ImGui::Button("fds");
+	
 
 	ImGui::SliderInt("Y Axis", &YValue, 1, 100);
 	if (ToolTips && ImGui::IsItemHovered(ImGuiHoveredFlags_AllowWhenDisabled))

@@ -28,8 +28,11 @@
     <ClCompile Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imgui_widgets.cpp" />
     <ClCompile Include="..\glad.c" />
     <ClCompile Include="ComponentWindow.cpp" />
+    <ClCompile Include="DebugCommands.cpp" />
     <ClCompile Include="DebugFile.cpp" />
     <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="NonExistentFunctions.cpp" />
+    <ClCompile Include="Rendering.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -42,9 +45,11 @@
     <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_rectpack.h" />
     <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_textedit.h" />
     <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IMGUI-DOCKING\imstb_truetype.h" />
+    <ClInclude Include="DebugCommands.h" />
     <ClInclude Include="DebugFile.h" />
     <ClInclude Include="DebugWindows.h" />
     <ClInclude Include="GUI.h" />
+    <ClInclude Include="NonExistentFunctions.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

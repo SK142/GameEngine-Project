@@ -4,4 +4,5 @@
 using namespace std;
 
 int CreateComponentWindow(bool ToolTips);
+int Rendering();
 

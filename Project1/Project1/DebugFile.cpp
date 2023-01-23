@@ -8,6 +8,7 @@
 using namespace std;
 
 int counter = 0;
+int x = 0;
 
 int OpenGL_Compilation_DebugError(string InfoLog)
 {
@@ -29,4 +30,28 @@ int OpenGL_Linking_DebugError(string InfoLog)
 	std::cout << "A file containing the error had been created in the project directory, File Name: " << FileName_Linking;
 	ErrorFile_LINKING.close();
 	return 0;
+}
+void WriteToFile(string FileName,string path, string Log)
+{ 
+	fstream File;
+	File.open(FileName, ios::app);
+	if (File.is_open())
+	{
+		//File is present
+		for (x; x < 1; x++)
+		{
+
+			 //File << counter++ << ") " << Log << endl;
+			//cout << x << endl;
+			
+		}
+		File.close();
+	}
+	else
+	{
+		//File is not there
+		fstream File(FileName);
+	//	File << Log << endl;
+		//File.close();
+	}
 }
