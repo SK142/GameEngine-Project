@@ -1,16 +1,17 @@
-﻿  imgui.cpp
-  imgui_demo.cpp
-  imgui_draw.cpp
-  imgui_impl_glfw.cpp
-  imgui_impl_opengl3.cpp
-  imgui_tables.cpp
-  imgui_widgets.cpp
+﻿  ComponentWindow.cpp
+C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\Project1\ComponentWindow.cpp(63,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  DebugCommands.cpp
   DebugFile.cpp
+  GUI.cpp
+  NonExistentFunctions.cpp
+C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\Project1\NonExistentFunctions.cpp(13,12): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Rendering.cpp
   Source.cpp
-  glad.c
-  Previous IPDB not found, fall back to full compilation.
+C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\Project1\Source.cpp(334,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  All 2599 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  172 of 2608 functions ( 6.6%) were compiled, the rest were copied from previous compilation.
+    8 functions were new in current compilation
+    130 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Project1.vcxproj -> C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\x64\Release\Project1.exe

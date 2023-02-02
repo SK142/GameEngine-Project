@@ -1,6 +1,3 @@
-﻿  Rendering.cpp
-  Source.cpp
-  Generating Code...
-Source.obj : error LNK2005: "char const * const fragmentShaderSource" (?fragmentShaderSource@@3PEBDEB) already defined in Rendering.obj
-Source.obj : error LNK2005: "char const * const vertexShaderSource" (?vertexShaderSource@@3PEBDEB) already defined in Rendering.obj
-C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\x64\Debug\Project1.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  Source.cpp
+C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\Project1\Source.cpp(339,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Project1.vcxproj -> C:\Users\sheha\source\C++\SDL\GameEngine-Project\Project1\x64\Debug\Project1.exe

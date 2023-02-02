@@ -19,6 +19,9 @@
     <Filter Include="Header Files\imgui">
       <UniqueIdentifier>{95bc38fb-bd70-44c1-9365-8b6a5805e168}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\irrKlang">
+      <UniqueIdentifier>{a79812ce-2870-4d5b-beef-0555b9c0e471}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\glad.c">
@@ -109,6 +112,72 @@
     </ClInclude>
     <ClInclude Include="NonExistentFunctions.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ESoundEngineOptions.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ESoundOutputDrivers.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_EStreamModes.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_IAudioRecorder.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_IAudioStream.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_IAudioStreamLoader.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_IFileFactory.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_IFileReader.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_IRefCounted.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_irrKlangTypes.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ISound.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ISoundDeviceList.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ISoundEffectControl.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ISoundEngine.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ISoundMixedOutputReceiver.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ISoundSource.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_ISoundStopEventReceiver.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_IVirtualRefCounted.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_SAudioStreamFormat.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\ik_vec3d.h">
+      <Filter>Header Files\irrKlang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Downloads\OpenGL Libraries\IrrKlang\include\irrKlang.h">
+      <Filter>Header Files\irrKlang</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
